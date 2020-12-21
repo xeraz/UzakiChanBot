@@ -9,7 +9,7 @@
 ![Stars](https://img.shields.io/github/stars/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
 ![LICENSE](https://img.shields.io/github/license/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
 ![Contributors](https://img.shields.io/github/contributors/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
-![Repo Size](https://img.shields.io/github/repo-size/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)</br>
+![Repo Size](https://img.shields.io/github/languages/code-size/F36/UzakiChanBot?style=for-the-badge))</br>
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
