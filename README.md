@@ -1,7 +1,7 @@
 ![Senku](https://telegra.ph/file/fdcf9c5e198f1ae66665f.jpg)
 # Uzaki Chan Bot
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/F36/)</br>
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/F36/)
 
 ![Python Version](https://img.shields.io/badge/python-3.8-green?style=for-the-badge&logo=appveyor)
 ![Issues](https://img.shields.io/github/issues/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
@@ -9,7 +9,8 @@
 ![Stars](https://img.shields.io/github/stars/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
 ![LICENSE](https://img.shields.io/github/license/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
 ![Contributors](https://img.shields.io/github/contributors/F36/Uzaki-Chan-Bot?style=for-the-badge&logo=appveyor)
-![Repo Size](https://img.shields.io/github/languages/code-size/F36/UzakiChanBot?style=for-the-badge)</br>
+![Repo Size](https://img.shields.io/github/languages/code-size/F36/UzakiChanBot?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/f36/UzakiChanBot?style=for-the-badge)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
