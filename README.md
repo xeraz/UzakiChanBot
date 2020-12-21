@@ -3,12 +3,12 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/F36/)
 
-![Python Version](https://img.shields.io/badge/python-3.8-green?style=for-the-badge&logo=appveyor)
-![Issues](https://img.shields.io/github/issues/F36/UzakiChanBot?style=for-the-badge&logo=appveyor)
-![Forks](https://img.shields.io/github/forks/F36/UzakiChanBot?style=for-the-badge&logo=appveyor)
+![Python Version](https://img.shields.io/badge/python-3.8-green?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/F36/UzakiChanBot?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/F36/UzakiChanBot?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/F36/UzakiChanBot?style=for-the-badge)
-![LICENSE](https://img.shields.io/github/license/F36/UzakiChanBot?style=for-the-badge&logo=appveyor)
-![Contributors](https://img.shields.io/github/contributors/F36/UzakiChanBot?style=for-the-badge&logo=appveyor)
+![LICENSE](https://img.shields.io/github/license/F36/UzakiChanBot?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors/F36/UzakiChanBot?style=for-the-badge&)
 ![Repo Size](https://img.shields.io/github/languages/code-size/F36/UzakiChanBot?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/f36/UzakiChanBot?style=for-the-badge)
 
