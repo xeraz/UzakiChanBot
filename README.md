@@ -17,7 +17,10 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [Uzaki Chan Bot](https://t.me/UzakiChanBot).
 
-The Support group can be reached out to at [Uzaki Support](https://t.me/AnimeChatOfficial), where you can ask for help about [Uzaki Chan Bot](https://t.me/UzakiChanBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Uzaki Support](https://t.me/AnimeChatOfficial)  
+![Members](https://img.shields.io/badge/dynamic/json?color=blue&label=@AnimeChatOfficial&query=subs&url=https%3A%2F%2Ftgsubs.vercel.app%2FAnimeChatOfficial)
+
+where you can ask for help about [Uzaki Chan Bot](https://t.me/UzakiChanBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [null](https://t.me/null) 
 
