@@ -55,7 +55,7 @@ Hi {}, my name is {}!
 I am an Anime themed group management bot with a lot of Special Features.
 You can find the list of available commands with /help.
 ==========================
--> [Source](https://github.com/F36/UzakiChanBot)
+-> [Source](https://github.com/F36\UzakiChanBot)
 -> Report To [AnimeChatOfficial](https://t.me/AnimeChatOfficial) if I go offline
 ==========================
 `Maintained by` @AnimeIndexOfficial
@@ -208,7 +208,7 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                            text="🔍 Help",
+                            text="✔️ Help",
                             url="https://t.me/UzakiChanBot?start=help")
                      ],
                      [
