@@ -10,7 +10,7 @@
 ![LICENSE](https://img.shields.io/github/license/F36/UzakiChanBot?style=for-the-badge)
 ![Contributors](https://img.shields.io/github/contributors/F36/UzakiChanBot?style=for-the-badge&)
 ![Repo Size](https://img.shields.io/github/languages/code-size/F36/UzakiChanBot?style=for-the-badge)
-![Lines of code](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=%40AnimeChatOfficial&query=subs&suffix=%20Members&url=https%3A%2F%2Ftgsubs.vercel.app%2FAnimeChatOfficial)
+![Lines of code](https://img.shields.io/tokei/lines/github/f36/UzakiChanBot?style=for-the-badge)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
@@ -18,7 +18,7 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 Can be found on telegram as [Uzaki Chan Bot](https://t.me/UzakiChanBot).
 
 The Support group can be reached out to at [@AnimeChatOfficial](https://t.me/AnimeChatOfficial)  
-![Members](https://img.shields.io/badge/dynamic/json?color=blue&label=@AnimeChatOfficial&query=subs&url=https%3A%2F%2Ftgsubs.vercel.app%2FAnimeChatOfficial)
+![Members](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=%40AnimeChatOfficial&query=subs&suffix=%20Members&url=https%3A%2F%2Ftgsubs.vercel.app%2FAnimeChatOfficial)
 
 where you can ask for help about [Uzaki Chan Bot](https://t.me/UzakiChanBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
