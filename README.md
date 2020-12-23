@@ -1,4 +1,4 @@
-![Senku](https://telegra.ph/file/fdcf9c5e198f1ae66665f.jpg)
+![Uzaki](https://telegra.ph/file/6e158ca4be49c013eba08.jpg)
 # Uzaki Chan Bot
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/F36/)
