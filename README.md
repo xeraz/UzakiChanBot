@@ -10,7 +10,6 @@
 ![LICENSE](https://img.shields.io/github/license/F36/UzakiChanBot?style=for-the-badge)
 ![Contributors](https://img.shields.io/github/contributors/F36/UzakiChanBot?style=for-the-badge&)
 ![Repo Size](https://img.shields.io/github/languages/code-size/F36/UzakiChanBot?style=for-the-badge)
-![Lines of code](https://img.shields.io/tokei/lines/github/f36/UzakiChanBot?style=for-the-badge)
 
 ![Repo Views](https://visitor-badge.glitch.me/badge?page_id=F36.UzakiChanBot)
 
