@@ -219,10 +219,9 @@ def start(update: Update, context: CallbackContext):
                     ]]))
     else:
        
-        pingstart = "<u>I'm online!</u>\n<b>Up since:</b> <code>{}</code>".format(uptime)
         update.effective_message.reply_animation(
             "https://telegra.ph/file/0c684eed2e58732b85d51.mp4",
-             caption=pingstart
+             caption="<u>I'm online!</u>\n<b>Up since:</b> <code>{}</code>".format(uptime)
              parse_mode=ParseMode.HTML)
 
 # for test purposes
