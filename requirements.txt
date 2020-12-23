@@ -1,3 +1,4 @@
+youtube-search-python
 future
 emoji
 lxml
@@ -50,4 +51,3 @@ validators
 youtube_dl
 redis
 html2text
-youtube-search-python
