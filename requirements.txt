@@ -1,4 +1,3 @@
-youtube-search-python
 future
 emoji
 lxml
@@ -49,5 +48,4 @@ pybase64
 pySmartDL
 validators
 youtube_dl
-redis
 html2text
