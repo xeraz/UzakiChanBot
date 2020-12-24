@@ -1,9 +1,8 @@
-import datetime
-import html
-import textwrap
-
 import bs4
+import html
 import jikanpy
+import datetime
+import textwrap
 import requests
 from SaitamaRobot import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
@@ -46,9 +45,10 @@ def t(milliseconds: int) -> str:
 
 
 airing_query = '''
-    query ($id: Int,$search: String) { 
-      Media (id: $id, type: ANIME,search: $search) { 
+    query ($id: Int,$search: String) {
+      Media (id: $id, type: ANIME,search: $search) {
         id
+        siteUrl
         episodes
         title {
           romaji
@@ -59,27 +59,28 @@ airing_query = '''
            airingAt
            timeUntilAiring
            episode
-        } 
+        }
       }
     }
     '''
 
 fav_query = """
-query ($id: Int) { 
-      Media (id: $id, type: ANIME) { 
+query ($id: Int) {
+      Media (id: $id, type: ANIME) {
         id
         title {
           romaji
           english
           native
         }
+        siteUrl
      }
 }
 """
 
 anime_query = '''
-   query ($id: Int,$search: String) { 
-      Media (id: $id, type: ANIME,search: $search) { 
+   query ($id: Int,$search: String) {
+      Media (id: $id, type: ANIME,search: $search) {
         id
         title {
           romaji
@@ -104,7 +105,7 @@ anime_query = '''
           }
           trailer{
                id
-               site 
+               site
                thumbnail
           }
           averageScore
@@ -132,8 +133,8 @@ character_query = """
 """
 
 manga_query = """
-query ($id: Int,$search: String) { 
-      Media (id: $id, type: MANGA,search: $search) { 
+query ($id: Int,$search: String) {
+      Media (id: $id, type: MANGA,search: $search) {
         id
         title {
           romaji
@@ -164,7 +165,7 @@ def airing(update: Update, context: CallbackContext):
     search_str = message.text.split(' ', 1)
     if len(search_str) == 1:
         update.effective_message.reply_text(
-            'Tell Anime Name :) ( /airing <anime name>)')
+            '**Usage:** `/airing` <anime name>)')
         return
     variables = {'search': search_str[1]}
     response = requests.post(
@@ -172,7 +173,9 @@ def airing(update: Update, context: CallbackContext):
             'query': airing_query,
             'variables': variables
         }).json()['data']['Media']
-    msg = f"*Name*: *{response['title']['romaji']}*(`{response['title']['native']}`)\n*ID*: `{response['id']}`"
+    info = response.get('siteUrl')
+    image = info.replace('anilist.co/anime/', 'img.anili.st/media/')
+    msg = f"*Name*: *{response['title']['romaji']}*(`{response['title']['native']}`)\n*ID*: `{response['id']}`[⁠ ⁠]({image})"
     if response['nextAiringEpisode']:
         time = response['nextAiringEpisode']['timeUntilAiring'] * 1000
         time = t(time)
@@ -221,7 +224,7 @@ def anime(update: Update, context: CallbackContext):
         description = json.get('description', 'N/A').replace('<i>', '').replace(
             '</i>', '').replace('<br>', '')
         msg += shorten(description, info)
-        image = json.get('bannerImage', None)
+        image = info.replace('anilist.co/anime/', 'img.anili.st/media/')
         if trailer:
             buttons = [[
                 InlineKeyboardButton("More Info", url=info),
