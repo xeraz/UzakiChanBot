@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
     else:
        
         update.effective_message.reply_animation(
-            "https://telegra.ph/file/0c684eed2e58732b85d51.mp4",
+            "https://telegra.ph/file/b74789259f8d3bdad0ec2.mp4",
              caption="<u>I'm online!</u>\n<b>Up since:</b> <code>{}</code>".format(uptime),
              parse_mode=ParseMode.HTML)
 
