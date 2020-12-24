@@ -49,18 +49,16 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
 PM_START_TEXT = """
 Hi {}, my name is {}!
 I am an Anime themed group management bot with a lot of Special Features.
 You can find the list of available commands with /help.
 ==========================
--> [Source](https://github.com/F36/UzakiChanBot)
+-> [Source](https://waa.ai/Uzaki)
 -> Report To [AnimeChatOfficial](https://t.me/AnimeChatOfficial) if I go offline
 ==========================
 `Maintained by` @AnimeIndexOfficial
 """
-
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm Uzaki Hana & I help admins to manage their groups! Have a look at the following for an idea of some of \
