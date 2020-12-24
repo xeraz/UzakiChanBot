@@ -14,7 +14,7 @@
 ![Repo Views](https://visitor-badge.glitch.me/badge?page_id=F36.UzakiChanBot)
 
 
-A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
+A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Uzaki suitable for Anime and Manga group chats. 
 
 Can be found on telegram as [Uzaki Chan Bot](https://t.me/UzakiChanBot).
 
@@ -23,7 +23,7 @@ Can be found on telegram as [Uzaki Chan Bot](https://t.me/UzakiChanBot).
 
 where you can ask for help about [Uzaki Chan Bot](https://t.me/UzakiChanBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [null](https://t.me/null) 
+~~News channel as at [null](https://t.me/null)~~
 
 ### Read these notes carefully before proceeding
  
