@@ -183,7 +183,10 @@ def airing(update: Update, context: CallbackContext):
         msg += f"\n*Episode*: `{response['nextAiringEpisode']['episode']}`\n*Airing In*: `{time}`"
     else:
         msg += f"\n*Episode*:{response['episodes']}\n*Status*: `N/A`"
-    update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(buttons)))
+    update.effective_message.reply_text(
+        msg, 
+        parse_mode=ParseMode.MARKDOWN,
+        reply_markup=InlineKeyboardMarkup(buttons))
 
 
 @run_async
