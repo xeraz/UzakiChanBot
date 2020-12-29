@@ -174,6 +174,7 @@ def airing(update: Update, context: CallbackContext):
             'variables': variables
         }).json()['data']['Media']
     info = response.get('siteUrl')
+    buttons = [[InlineKeyboardButton("More Info", url=info)]]
     image = info.replace('anilist.co/anime/', 'img.anili.st/media/')
     msg = f"*Name*: *{response['title']['romaji']}*(`{response['title']['native']}`)\n*ID*: `{response['id']}`[⁠ ⁠]({image})"
     if response['nextAiringEpisode']:
@@ -182,7 +183,7 @@ def airing(update: Update, context: CallbackContext):
         msg += f"\n*Episode*: `{response['nextAiringEpisode']['episode']}`\n*Airing In*: `{time}`"
     else:
         msg += f"\n*Episode*:{response['episodes']}\n*Status*: `N/A`"
-    update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(buttons)))
 
 
 @run_async
