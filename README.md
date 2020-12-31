@@ -32,12 +32,10 @@ where you can ask for help about [Uzaki Chan Bot](https://t.me/UzakiChanBot), di
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors
 
-## Credits
-The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
-This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
-
-Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (will add it later, this note says unless it is done)
-
-Any other authorship/credits can be seen through the commits.
-
-Should any be missing kindly let us know at [AnimeChatOfficial](https://t.me/AnimeChatOfficial) or simply submit a pull request on the readme.
+Credits |
+--- |
+**The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)**
+**This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!**
+**Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (will add it later, this note says unless it is done)**
+**Any other authorship/credits can be seen through the commits.**
+**Should any be missing kindly let us know at [AnimeChatOfficial](https://t.me/AnimeChatOfficial) or simply submit a pull request on the readme.**
